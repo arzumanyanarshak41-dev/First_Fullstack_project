@@ -1,0 +1,192 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f6fa;
+    display: flex;
+    flex-direction: column;
+}
+
+.home nav {
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.home nav h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.home nav p {
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.home nav a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: 600;
+}
+
+.todo {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.todo h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.todo span {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: gray;
+}
+
+.todo form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.todo input:focus {
+    border-color: #4a90e2;
+}
+
+.todo button {
+    width: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.todo button:hover {
+    background: #357bd8;
+}
+
+.todo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.todo li:hover {
+    background: #f9f9f9;
+}
+
+.todo li img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.isdone {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.isdoneForLi {
+    background-color: rgba(172, 255, 47, 0.65);
+}
+
+.todo li p {
+    flex: 1;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.editForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fafafa;
+}
+
+.editForm input {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.editForm input:focus {
+    border-color: #4a90e2;
+}
+.editForm button{
+    width: fit-content;
+}
+.editForm button:first-of-type {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.editForm button:first-of-type:hover {
+    background: #357bd8;
+}
+
+.editForm button[type="button"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background:rgba(255, 0, 0, 0.655);
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.editForm button[type="button"]:hover {
+    background: #ddd;
+}
