@@ -159,6 +159,4 @@ Completed (first fullstack project)
 
 ---
 
-## Author
 
-Personal learning project for mastering fullstack web development
